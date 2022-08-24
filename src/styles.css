@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background-color: #e9cd95;
 }
 
 .mainHeading {
@@ -8,8 +8,7 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: aliceblue;
+  color: #af6119;
 }
 
 a.homepageLink {
@@ -19,7 +18,6 @@ a.homepageLink {
 
 a#photosLink,
 #contactLink {
-  display: block;
   text-align: center;
   margin: 10px auto;
 }
@@ -27,10 +25,18 @@ a#photosLink,
 #photosLink:hover,
 #contactLink:hover,
 .homepageLink:hover {
-  color: yellow;
+  color: #2c1f0c;
 }
 
 #mailLink {
   color: rgb(202, 169, 233);
   text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 20px;
 }
