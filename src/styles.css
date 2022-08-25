@@ -8,18 +8,12 @@ body {
 }
 
 a {
-  color: #af6119;
+  color: green;
 }
 
 a.homepageLink {
   display: block;
   margin: 15px auto;
-}
-
-a#photosLink,
-#contactLink {
-  text-align: center;
-  margin: 10px auto;
 }
 
 #photosLink:hover,
@@ -35,8 +29,16 @@ a#photosLink,
 
 footer {
   text-align: center;
+  margin: 30px auto;
 }
 
 footer a {
-  margin: 0 20px;
+  margin: 0 10px;
+}
+
+.croissants_pic {
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
